@@ -20,6 +20,9 @@ else
    "google")
      WEBSITE="https://www.google.com/"
      ;;
+   "roadmap")
+     WEBSITE="https://neetcode.io/roadmap"
+     ;;
    *)
      WEBSITE=$DEFAULT_WEBSITE
      ;;

@@ -1,0 +1,12 @@
+# Night Mode Alias
+alias day='~/Documents/daymode.sh'
+alias night='~/Documents/nightmode.sh'
+
+# Browser Alias
+alias list='~/Documents/browser.sh list'
+alias gpt='~/Documents/browser.sh gpt'
+alias phind='~/Documents/browser.sh phind'
+alias google='~/Documents/browser.sh google'
+alias roadmap='~/Documents/browser.sh roadmap'
+alias leetcodenotes='~/Documents/browser.sh leetcodenotes'
+alias javanotes='~/Documents/browser.sh javanotes'

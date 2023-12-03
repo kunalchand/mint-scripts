@@ -14,7 +14,7 @@ COMMAND_TO_WEBSITE["javanotes"]="https://docs.google.com/document/d/1JSchYJH05EU
 COMMAND_TO_WEBSITE["whatsapp"]="https://web.whatsapp.com/"
 COMMAND_TO_WEBSITE["youtube"]="https://www.youtube.com/channel/UCOnFr4jtlNNwHk5ERjsJ54Q/playlists?view=1&sort=lad"
 COMMAND_TO_WEBSITE["gmail"]="https://mail.google.com/mail/u/0/#inbox"
-COMMAND_TO_WEBSITE["tracker"]="https://docs.google.com/spreadsheets/d/1G4kL5vfjjpOjM6wQHF3YPOZsD1FGpF0v9oAscTS7Ky4/edit#gid=0"
+COMMAND_TO_WEBSITE["tracker"]="https://docs.google.com/spreadsheets/d/1G4kL5vfjjpOjM6wQHF3YPOZsD1FGpF0v9oAscTS7Ky4/edit#gid=625126536"
 COMMAND_TO_WEBSITE["portfolio"]="https://kunalchand.github.io/portfolio/"
 COMMAND_TO_WEBSITE["linkedin"]="https://www.linkedin.com/in/kunal-chand/"
 COMMAND_TO_WEBSITE["github"]="https://github.com/kunalchand"

@@ -6,6 +6,7 @@ alias night='~/Documents/mint-scripts/nightmode.sh'
 alias vscode='~/Documents/mint-scripts/vscode.sh'
 
 # Browser Alias
+alias chrome='~/Documents/mint-scripts/browser.sh'
 alias list='~/Documents/mint-scripts/browser.sh list'
 alias gpt='~/Documents/mint-scripts/browser.sh gpt'
 alias phind='~/Documents/mint-scripts/browser.sh phind'
@@ -22,3 +23,5 @@ alias linkedin='~/Documents/mint-scripts/browser.sh linkedin'
 alias github='~/Documents/mint-scripts/browser.sh github'
 alias leetcode='~/Documents/mint-scripts/browser.sh leetcode'
 alias music='~/Documents/mint-scripts/browser.sh music'
+alias ubmail='~/Documents/mint-scripts/browser.sh ubmail'
+

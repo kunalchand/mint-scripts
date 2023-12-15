@@ -25,3 +25,5 @@ alias leetcode='~/Documents/mint-scripts/browser.sh leetcode'
 alias music='~/Documents/mint-scripts/browser.sh music'
 alias ubmail='~/Documents/mint-scripts/browser.sh ubmail'
 
+# Practice Alias
+alias practice='~/Documents/mint-scripts/practice.sh'

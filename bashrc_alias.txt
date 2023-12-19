@@ -24,6 +24,7 @@ alias github='~/Documents/mint-scripts/browser.sh github'
 alias leetcode='~/Documents/mint-scripts/browser.sh leetcode'
 alias music='~/Documents/mint-scripts/browser.sh music'
 alias ubmail='~/Documents/mint-scripts/browser.sh ubmail'
+alias perplexity='~/Documents/mint-scripts/browser.sh perplexity'
 
 # Practice Alias
 alias practice='~/Documents/mint-scripts/practice.sh'

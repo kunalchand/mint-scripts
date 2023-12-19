@@ -21,6 +21,7 @@ COMMAND_TO_WEBSITE["github"]="https://github.com/kunalchand"
 COMMAND_TO_WEBSITE["leetcode"]="https://leetcode.com/kunalchand234/"
 COMMAND_TO_WEBSITE["music"]="https://music.youtube.com/"
 COMMAND_TO_WEBSITE["ubmail"]="https://outlook.office.com/mail/"
+COMMAND_TO_WEBSITE["perplexity"]="https://www.perplexity.ai/"
 
 if [ -z "$1" ]; then
     # If no parameter is passed, open Google Chrome

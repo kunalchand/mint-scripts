@@ -3,25 +3,17 @@
 # Set the script to exit immediately if any command fails
 set -e
 
+# Get the directory of the current script
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
 # Define an associative array to map commands to websites
 declare -A COMMAND_TO_WEBSITE
-COMMAND_TO_WEBSITE["gpt"]="https://chat.openai.com/"
-COMMAND_TO_WEBSITE["phind"]="https://www.phind.com/"
-COMMAND_TO_WEBSITE["google"]="https://www.google.com/"
-COMMAND_TO_WEBSITE["roadmap"]="https://neetcode.io/roadmap"
-COMMAND_TO_WEBSITE["leetcodenotes"]="https://docs.google.com/spreadsheets/d/14xdtVdBHRXI2thUCdcIiq0E-C1gLPzHMGUZl31hw6gc/edit#gid=1336779853"
-COMMAND_TO_WEBSITE["javanotes"]="https://docs.google.com/document/d/1JSchYJH05EUrNvdm1mI50um1R79Pi9bkoH9SmEWy_b8/edit#heading=h.pvt1ihed3m2z"
-COMMAND_TO_WEBSITE["whatsapp"]="https://web.whatsapp.com/"
-COMMAND_TO_WEBSITE["youtube"]="https://www.youtube.com/channel/UCOnFr4jtlNNwHk5ERjsJ54Q/playlists?view=1&sort=lad"
-COMMAND_TO_WEBSITE["gmail"]="https://mail.google.com/mail/u/0/#inbox"
-COMMAND_TO_WEBSITE["tracker"]="https://docs.google.com/spreadsheets/d/1G4kL5vfjjpOjM6wQHF3YPOZsD1FGpF0v9oAscTS7Ky4/edit#gid=625126536"
-COMMAND_TO_WEBSITE["portfolio"]="https://kunalchand.github.io/portfolio/"
-COMMAND_TO_WEBSITE["linkedin"]="https://www.linkedin.com/in/kunal-chand/"
-COMMAND_TO_WEBSITE["github"]="https://github.com/kunalchand"
-COMMAND_TO_WEBSITE["leetcode"]="https://leetcode.com/kunalchand234/"
-COMMAND_TO_WEBSITE["music"]="https://music.youtube.com/"
-COMMAND_TO_WEBSITE["ubmail"]="https://outlook.office.com/mail/"
-COMMAND_TO_WEBSITE["perplexity"]="https://www.perplexity.ai/"
+
+# Read the commands.txt file and populate the associative array
+while IFS=':' read -r command url
+do
+   COMMAND_TO_WEBSITE["$command"]="$url"
+done < "$SCRIPT_DIR/commands.txt"
 
 if [ -z "$1" ]; then
     # If no parameter is passed, open Google Chrome

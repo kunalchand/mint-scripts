@@ -7,7 +7,8 @@ Replace REPOSITORY_NAME with Name of the GitHub Repository.
 eg.
 git remote set-url origin git@github.com:kunalchand/LeeCodeSolutions.git
 
-To check if remote's URL is ssh or https, use git remote -v
+To check if remote's URL is ssh or https, use 
+git remote -v
 
 BEFORE:
 $ git remote -v

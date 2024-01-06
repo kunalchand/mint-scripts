@@ -1,0 +1,30 @@
+Ensure you're using SSH URL for your repository: GitHub supports both HTTPS and SSH URLs for repositories. If you're using the HTTPS URL, GitHub will always ask for your username and password, even if you have set up SSH keys. You can change the URL to the SSH version by using the git remote set-url command:
+
+git remote set-url origin git@github.com:USERNAME/REPOSITORY_NAME.git
+
+Replace USERNAME with your actual GitHub Username
+Replace REPOSITORY_NAME with Name of the GitHub Repository.
+eg.
+git remote set-url origin git@github.com:kunalchand/LeeCodeSolutions.git
+
+To check if remote's URL is ssh or https, use git remote -v
+
+BEFORE:
+$ git remote -v
+origin	https://github.com/kunalchand/my-bills.git (fetch)
+origin	https://github.com/kunalchand/my-bills.git (push)
+
+AFTER:
+$ git remote -v
+origin	git@github.com:kunalchand/my-bills.git (fetch)
+origin	git@github.com:kunalchand/my-bills.git (push)
+
+The git remote set-url command will simply updates your local configuration to point to the new URL, which in this case will be the SSH URL instead of the HTTPS URL.
+
+After you update the remote URL to the SSH version, Git will use your SSH key for authentication, and you should not be prompted for your password when you push to GitHub
+
+Reference:
+https://stackoverflow.com/questions/21095054/ssh-key-still-asking-for-password-and-passphrase
+
+YouTube Vid to Setup SSH Keys:
+https://www.youtube.com/watch?v=m-xhLRauY2A

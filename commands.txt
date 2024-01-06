@@ -16,6 +16,6 @@ music: https://music.youtube.com/
 ubemail: https://outlook.office.com/mail/
 perplexity: https://www.perplexity.ai/
 pythonnotes: https://docs.google.com/document/d/1XsxxR_XPK1vzl34HlFVM3gcrlO7_wKDmG_36vxqn03Y/edit#heading=h.pvt1ihed3m2z
-jovianpythondsa: https://www.youtube.com/playlist?list=PLyMom0n-MBrqFwguQhbCu0Anlxoel08dr
+joviandsapython: https://www.youtube.com/playlist?list=PLyMom0n-MBrqFwguQhbCu0Anlxoel08dr
 onecompilerpython: https://onecompiler.com/python
 drive: https://drive.google.com/drive/home

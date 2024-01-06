@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -p "Enter command name: " command
-read -p "Enter URL: " url
+read -p "Enter URL: " og_url
 
 # Get the directory of the current script
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
@@ -18,7 +18,7 @@ do
             command_updated=true # To NOT duplicate the command
             url=${line#*:}
             echo -e "Existing Command: \033[36m$cmd: $url\033[0m"
-            echo -e "New Command: \033[33m$command: $url\033[0m"
+            echo -e "New Command: \033[33m$command: $og_url\033[0m"
             echo "Sure wanna update existing command? (y/n)"
             read -r update_confirmation < /dev/tty
             if [ "$update_confirmation" = "y" ]; then
@@ -36,7 +36,7 @@ done < "$SCRIPT_DIR/commands.txt"
 
 # Check if the command was updated
 if [ "$command_updated" = false ]; then
-  echo -e "\033[33m$command: $url\033[0m"
+  echo -e "\033[33m$command: $og_url\033[0m"
   echo "Confirm a NEW command? (y/n)"
   read -r new_command_confirmation < /dev/tty
 
@@ -48,11 +48,11 @@ if [ "$command_updated" = false ]; then
       # If the number of lines is equal to the number of newline characters, the file ends with a newline
       if [ "$num_lines" -eq "$num_newlines" ]; then
         # The file ends with a newline, no need to append another
-        echo "$command: $url" >> "$SCRIPT_DIR/commands.txt"
+        echo "$command: $og_url" >> "$SCRIPT_DIR/commands.txt"
       else
         # The file does not end with a newline, append one before the command
         echo "" >> "$SCRIPT_DIR/commands.txt"
-        echo "$command: $url" >> "$SCRIPT_DIR/commands.txt"
+        echo "$command: $og_url" >> "$SCRIPT_DIR/commands.txt"
       fi
 
       # Count the number of lines in the file

@@ -16,7 +16,7 @@ do
         cmd=${line%%:*}
         if [ "$cmd" = "$command" ]; then
             command_updated=true # To NOT duplicate the command
-            existing_url=${line#*:}
+            existing_url=${line#*:[[:space:]]}
             echo -e "Existing Command: \033[36m$cmd: $existing_url\033[0m"
             echo -e "New Command: \033[33m$command: $url\033[0m"
             echo "Sure wanna update existing command? (y/n)"

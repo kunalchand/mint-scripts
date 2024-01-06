@@ -85,3 +85,5 @@ if [ "$git_push" = true ]; then
     git commit -m "Added new commands"
     git push
 fi
+
+source ~/.bashrc

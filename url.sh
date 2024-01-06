@@ -86,4 +86,4 @@ if [ "$git_push" = true ]; then
     git push
 fi
 
-source ~/.bashrc
+echo "Please run 'source ~/.bashrc' or '. ~/.bashrc' to update the current shell with new aliases."

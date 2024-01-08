@@ -19,4 +19,4 @@ pythonnotes: https://docs.google.com/document/d/1XsxxR_XPK1vzl34HlFVM3gcrlO7_wKD
 joviandsapython: https://www.youtube.com/playlist?list=PLyMom0n-MBrqFwguQhbCu0Anlxoel08dr
 onecompilerpython: https://onecompiler.com/python
 drive: https://drive.google.com/drive/home
-bard: https://bard.google.com/chat
+bard: https://bard.google.com/

@@ -9,6 +9,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 # Initialize the boolean variable
 command_updated=false
 git_push=false
+status=""
 
 while IFS= read -r line
 do
@@ -25,6 +26,7 @@ do
               sed -i "/^$cmd:/c\\$command: $url" "$SCRIPT_DIR/commands.txt"
               echo "Existing command updated!"
               git_push=true
+              status="Updated"
               break
             else
               echo "Existing command updation aborted!"
@@ -71,6 +73,7 @@ if [ "$command_updated" = false ]; then
 
       echo "New command added!"
       git_push=true
+      status="Added"
   else
     echo "New command addition aborted!"
   fi
@@ -79,7 +82,7 @@ fi
 if [ "$git_push" = true ]; then
     cd /home/kunalchand/Documents/mint-scripts
     git add *
-    git commit -m "Added $command command"
+    git commit -m "$status '$command' command"
     git push
 
     echo -e "\e[95m\e[3mPlease run 'source ~/.bashrc' or '. ~/.bashrc' to update the current shell with new aliases.\e[0m"

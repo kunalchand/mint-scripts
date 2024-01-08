@@ -17,8 +17,8 @@ do
         if [ "$cmd" = "$command" ]; then
             command_updated=true # To NOT duplicate the command
             existing_url=${line#*:[[:space:]]}
-            echo -e "Existing Command: \033[36m$cmd: $existing_url\033[0m"
-            echo -e "New Command: \033[33m$command: $url\033[0m"
+            echo -e "Existing Command: \033[96m$cmd: $existing_url\033[0m"
+            echo -e "New Command: \033[93m$command: $url\033[0m"
             echo "Confirm to update an EXISTSING command? (y/n)"
             read -r update_confirmation < /dev/tty
             if [ "$update_confirmation" = "y" ]; then
@@ -36,7 +36,7 @@ done < "$SCRIPT_DIR/commands.txt"
 
 # Check if the command was updated
 if [ "$command_updated" = false ]; then
-  echo -e "\033[33m$command: $url\033[0m"
+  echo -e "\033[93m$command: $url\033[0m"
   echo "Confirm a NEW command? (y/n)"
   read -r new_command_confirmation < /dev/tty
 

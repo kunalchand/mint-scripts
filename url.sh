@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter command name: " command
+read -p "Enter keyword: " command
 read -p "Enter URL: " url
 
 # Get the directory of the current script
@@ -79,7 +79,7 @@ fi
 if [ "$git_push" = true ]; then
     cd /home/kunalchand/Documents/mint-scripts
     git add *
-    git commit -m "Added new commands"
+    git commit -m "Added $command"
     git push
 fi
 

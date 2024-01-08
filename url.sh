@@ -79,7 +79,7 @@ fi
 if [ "$git_push" = true ]; then
     cd /home/kunalchand/Documents/mint-scripts
     git add *
-    git commit -m "Added $command"
+    git commit -m "Added $command command"
     git push
 fi
 

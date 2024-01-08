@@ -19,15 +19,15 @@ do
             existing_url=${line#*:[[:space:]]}
             echo -e "Existing Command: \033[36m$cmd: $existing_url\033[0m"
             echo -e "New Command: \033[33m$command: $url\033[0m"
-            echo "Sure wanna update existing command? (y/n)"
+            echo "Confirm to update an EXISTSING command? (y/n)"
             read -r update_confirmation < /dev/tty
             if [ "$update_confirmation" = "y" ]; then
               sed -i "/^$cmd:/c\\$command: $url" "$SCRIPT_DIR/commands.txt"
-              echo "Command updated!"
+              echo "Existing command updated!"
               git_push=true
               break
             else
-              echo "Command updation aborted!"
+              echo "Existing command updation aborted!"
               break
             fi
         fi
@@ -69,10 +69,10 @@ if [ "$command_updated" = false ]; then
         echo "alias $command='~/Documents/mint-scripts/browser.sh $command'" >> "$SCRIPT_DIR/bashrc_alias.txt"
       fi
 
-      echo "Command added!"
+      echo "New command added!"
       git_push=true
   else
-    echo "Aborted!"
+    echo "New command addition aborted!"
   fi
 fi
 

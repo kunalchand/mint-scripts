@@ -81,6 +81,6 @@ if [ "$git_push" = true ]; then
     git add *
     git commit -m "Added $command command"
     git push
-fi
 
-echo -e "\e[95m\e[3mPlease run 'source ~/.bashrc' or '. ~/.bashrc' to update the current shell with new aliases.\e[0m"
+    echo -e "\e[95m\e[3mPlease run 'source ~/.bashrc' or '. ~/.bashrc' to update the current shell with new aliases.\e[0m"
+fi

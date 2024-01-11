@@ -4,6 +4,7 @@ alias night='~/Documents/mint-scripts/nightmode.sh'
 
 # VSCode Alias
 alias vscode='~/Documents/mint-scripts/vscode.sh'
+alias p='~/Documents/mint-scripts/p.sh'
 
 # Link Alias
 alias url='~/Documents/mint-scripts/url.sh'
@@ -37,3 +38,4 @@ alias onecompilerpython='~/Documents/mint-scripts/browser.sh onecompilerpython'
 alias drive='~/Documents/mint-scripts/browser.sh drive'
 alias bard='~/Documents/mint-scripts/browser.sh bard'
 alias claude='~/Documents/mint-scripts/browser.sh claude'
+alias portal='~/Documents/mint-scripts/browser.sh portal'

@@ -2,6 +2,9 @@
 alias day='~/Documents/mint-scripts/daymode.sh'
 alias night='~/Documents/mint-scripts/nightmode.sh'
 
+# Pending Alias
+alias check='~/Documents/mint-scripts/check.sh'
+
 # VSCode Alias
 alias vscode='~/Documents/mint-scripts/vscode.sh'
 alias p='~/Documents/mint-scripts/p.sh'

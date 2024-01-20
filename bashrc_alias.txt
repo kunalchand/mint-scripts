@@ -8,6 +8,10 @@ alias check='~/Documents/mint-scripts/check.sh'
 # VSCode Alias
 alias vscode='~/Documents/mint-scripts/vscode.sh'
 alias p='~/Documents/mint-scripts/p.sh'
+alias j='~/Documents/mint-scripts/j.sh'
+
+# Mint Scripts Alias
+alias mintscripts='~/Documents/mint-scripts/mintscripts.sh'
 
 # Link Alias
 alias url='~/Documents/mint-scripts/url.sh'

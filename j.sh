@@ -24,12 +24,20 @@ done
 let new_index=max_index+1
 
 # Create a new file with the incremented index
-new_file_name="Test_${new_index}.py"
+new_file_name="Test_${new_index}.java"
 touch "$new_file_name"
 
 # Add specific content to the new file
 cat <<EOF >> "$new_file_name"
-print("Hello Python")
+public class Test_${new_index} {
+    public static final <T> void print(T t) {
+        System.out.println(t);
+    }
+
+    public static void main(String[] args) {
+        print("Hello Java");
+    }
+}
 EOF
 
 # Open VSCode with the current directory and focus on the new file

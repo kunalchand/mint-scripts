@@ -5,7 +5,7 @@ TARGET_DIR="/home/kunalchand/Desktop/Projects"
 TARGET_DIR2="/home/kunalchand/Documents/mint-scripts"
 
 # ANSI color codes
-REPO_COLOR='\033[1;33m' # Yellow
+REPO_COLOR='\033[1;31m' # Red
 FILE_COLOR='\033[0;96m' # Cyan
 NO_COLOR='\033[0m'      # No color
 

@@ -28,9 +28,9 @@ new_file_name="Test_${new_index}.py"
 touch "$new_file_name"
 
 # Add specific content to the new file
-cat <<EOF >> "$new_file_name"
-print("Hello Python")
-EOF
+# cat <<EOF >> "$new_file_name"
+# print("Hello Python")
+# EOF
 
 # Open VSCode with the current directory and focus on the new file
 code -r . "$new_file_name"

@@ -5,14 +5,12 @@ set -e
 
 ROADMAP="https://neetcode.io/roadmap"
 MYLEETCODENOTES="https://docs.google.com/spreadsheets/d/14xdtVdBHRXI2thUCdcIiq0E-C1gLPzHMGUZl31hw6gc/edit#gid=1336779853"
-MYJAVANOTES="https://github.com/kunalchand/my-language-notes/blob/master/my-java-notes.md"
-MYPYTHONNOTES="https://github.com/kunalchand/my-language-notes/blob/master/my-python-notes.md"
+MYPRGRAMMINGLANGUAGESNOTES="https://github.com/kunalchand/my-programming-languages-notes"
 
 # Launch browser in the background
 setsid google-chrome $ROADMAP > /dev/null 2>&1 &
 setsid google-chrome $MYLEETCODENOTES > /dev/null 2>&1 &
-setsid google-chrome $MYJAVANOTES > /dev/null 2>&1 &
-setsid google-chrome $MYPYTHONNOTES > /dev/null 2>&1 &
+setsid google-chrome $MYPRGRAMMINGLANGUAGESNOTES > /dev/null 2>&1 &
 
 cd /home/kunalchand/Desktop/Projects/LeetCode
 code .

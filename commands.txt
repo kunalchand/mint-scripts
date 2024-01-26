@@ -21,3 +21,4 @@ drive: https://drive.google.com/drive/home
 bard: https://bard.google.com/chat
 claude: https://claude.ai/chats
 portal: https://docs.google.com/spreadsheets/d/1-86f-O7Q7GVVrmPjophwmJiawYajlnCti2ex-5vOGws/edit#gid=625126536
+notes: https://github.com/kunalchand/my-programming-languages-notes

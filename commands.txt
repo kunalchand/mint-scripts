@@ -14,7 +14,7 @@ leetcode: https://leetcode.com/kunalchand234/
 music: https://music.youtube.com/
 ubmail: https://outlook.office.com/mail/
 perplexity: https://www.perplexity.ai/
-mypythonnotes: https://github.com/kunalchand/my-language-notes/blob/master/my-python-notes.md
+mypythonnotes: https://github.com/kunalchand/my-programming-languages-notes/blob/master/my-python-notes.md
 joviandsapython: https://www.youtube.com/playlist?list=PLyMom0n-MBrqFwguQhbCu0Anlxoel08dr
 onecompilerpython: https://onecompiler.com/python
 drive: https://drive.google.com/drive/home

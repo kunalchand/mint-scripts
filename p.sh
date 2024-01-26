@@ -33,7 +33,7 @@ touch "$new_file_name"
 # EOF
 
 # Open VSCode with the current directory and focus on the new file
-code -r . "$new_file_name"
+code -n . "$new_file_name"
 
 # Get the PID of the terminal
 TERMINAL_PID=$(ps -o ppid= -p $$)

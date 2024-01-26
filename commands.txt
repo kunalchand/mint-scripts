@@ -3,7 +3,7 @@ phind: https://www.phind.com/
 google: https://www.google.com/
 roadmap: https://neetcode.io/roadmap
 myleetcodenotes: https://docs.google.com/spreadsheets/d/14xdtVdBHRXI2thUCdcIiq0E-C1gLPzHMGUZl31hw6gc/edit#gid=1336779853
-myjavanotes: https://docs.google.com/document/d/1JSchYJH05EUrNvdm1mI50um1R79Pi9bkoH9SmEWy_b8/edit#heading=h.pvt1ihed3m2z
+myjavanotes: https://github.com/kunalchand/my-language-notes/blob/master/my-java-notes.md
 whatsapp: https://web.whatsapp.com/
 youtube: https://www.youtube.com/channel/UCOnFr4jtlNNwHk5ERjsJ54Q/playlists?view=1&sort=lad
 gmail: https://mail.google.com/mail/u/0/#inbox

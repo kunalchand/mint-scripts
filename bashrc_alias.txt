@@ -10,6 +10,7 @@ alias vscode='~/Documents/mint-scripts/vscode.sh'
 alias p='~/Documents/mint-scripts/p.sh'
 alias j='~/Documents/mint-scripts/j.sh'
 alias editnotes='~/Documents/mint-scripts/editnotes.sh'
+alias daily='~/Documents/mint-scripts/daily.sh'
 
 # Mint Scripts Alias
 alias mintscripts='~/Documents/mint-scripts/mintscripts.sh'
@@ -48,3 +49,4 @@ alias claude='~/Documents/mint-scripts/browser.sh claude'
 alias portal='~/Documents/mint-scripts/browser.sh portal'
 alias notes='~/Documents/mint-scripts/browser.sh notes'
 alias you='~/Documents/mint-scripts/browser.sh you'
+alias dailyleetcodechallenge='~/Documents/mint-scripts/browser.sh dailyleetcodechallenge'

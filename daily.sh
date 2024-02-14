@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd "/home/kunalchand/Desktop/Projects/Others/daily-leetcode-challenge"
+cd "/home/kunalchand/Desktop/Projects/Others/daily-leetcode-practice"
 
 # Open VSCode in a new session which detaches it fromt the terminal and runs independently
 setsid code . "$@" > /dev/null 2>&1 &

@@ -28,9 +28,15 @@ new_file_name="Test_${new_index}.py"
 touch "$new_file_name"
 
 # Add specific content to the new file
-# cat <<EOF >> "$new_file_name"
-# print("Hello Python")
-# EOF
+cat <<EOF >> "$new_file_name"
+import copy
+import heapq
+from collections import Counter, defaultdict, deque
+from dataclasses import dataclass
+from functools import cmp_to_key
+from itertools import zip_longest
+from typing import Dict, List, Optional, Tuple, Union
+EOF
 
 # Open VSCode with the current directory and focus on the new file
 code -n . "$new_file_name"

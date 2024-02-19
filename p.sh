@@ -31,10 +31,13 @@ touch "$new_file_name"
 cat <<EOF >> "$new_file_name"
 import copy
 import heapq
+import math
+import random
 from collections import Counter, defaultdict, deque
 from dataclasses import dataclass
-from functools import cmp_to_key
+from functools import cmp_to_key, reduce
 from itertools import zip_longest
+from math import factorial, sqrt
 from typing import Dict, List, Optional, Tuple, Union
 EOF
 

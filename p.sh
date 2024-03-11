@@ -38,7 +38,7 @@ from dataclasses import dataclass
 from functools import cmp_to_key, reduce
 from itertools import zip_longest
 from math import factorial, sqrt
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, List, Optional, Set, Tuple, Union
 EOF
 
 # Open VSCode with the current directory and focus on the new file

@@ -43,8 +43,8 @@ from math import ceil, factorial, floor, sqrt
 from typing import Dict, List, Optional, Set, Tuple, Union
 EOF
 
-# Open VSCode with the current directory and focus on the new file
-code -n . "$new_file_name"
+# Open VSCode with the current directory and focus on the new file at the last line with the cursor at the end
+code -n . -g "$new_file_name":$(( $(wc -l < "$new_file_name") + 1 ))
 
 # Get the PID of the terminal
 TERMINAL_PID=$(ps -o ppid= -p $$)

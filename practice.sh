@@ -12,7 +12,7 @@ setsid google-chrome $ROADMAP > /dev/null 2>&1 &
 setsid google-chrome $MYLEETCODENOTES > /dev/null 2>&1 &
 setsid google-chrome $MYPRGRAMMINGLANGUAGESNOTES > /dev/null 2>&1 &
 
-cd /home/kunalchand/Desktop/Projects/LeetCode
+cd /home/kunalchand/Desktop/Projects/Others/daily-leetcode-practice
 code .
 
 # Get the PID of the terminal

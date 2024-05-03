@@ -24,4 +24,4 @@ portal: https://docs.google.com/spreadsheets/d/1-86f-O7Q7GVVrmPjophwmJiawYajlnCt
 langnotes: https://github.com/kunalchand/my-programming-languages-notes
 you: https://you.com/
 dailyleetcodepractice: https://github.com/kunalchand/daily-leetcode-practice
-myresources: https://github.com/kunalchand/my-resources
+resources: https://github.com/kunalchand/my-resources

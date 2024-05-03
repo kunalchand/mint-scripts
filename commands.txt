@@ -10,7 +10,7 @@ gmail: https://mail.google.com/mail/u/0/#inbox
 portfolio: https://kunalchand.github.io/portfolio/
 linkedin: https://www.linkedin.com/in/kunal-chand/
 github: https://github.com/kunalchand
-leetcode: https://leetcode.com/kunalchand234/
+leetcode: https://leetcode.com/kunal-chand/
 music: https://music.youtube.com/
 ubmail: https://outlook.office.com/mail/
 perplexity: https://www.perplexity.ai/

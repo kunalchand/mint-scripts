@@ -10,6 +10,7 @@ alias vscode='~/Documents/mint-scripts/vscode.sh'
 alias p='~/Documents/mint-scripts/p.sh'
 alias j='~/Documents/mint-scripts/j.sh'
 alias editlangnotes='~/Documents/mint-scripts/editlangnotes.sh'
+alias editresources='~/Documents/mint-scripts/editresources.sh'
 alias daily='~/Documents/mint-scripts/daily.sh'
 
 # Mint Scripts Alias

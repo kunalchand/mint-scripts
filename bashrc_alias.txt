@@ -6,7 +6,7 @@ alias night='~/Documents/mint-scripts/nightmode.sh'
 alias check='~/Documents/mint-scripts/check.sh'
 
 # VSCode Alias
-alias vscode='~/Documents/mint-scripts/vscode.sh'
+alias projects='~/Documents/mint-scripts/projects.sh'
 alias p='~/Documents/mint-scripts/p.sh'
 alias j='~/Documents/mint-scripts/j.sh'
 alias editlangnotes='~/Documents/mint-scripts/editlangnotes.sh'

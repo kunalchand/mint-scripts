@@ -26,3 +26,4 @@ you: https://you.com/
 dailyleetcodepractice: https://github.com/kunalchand/daily-leetcode-practice
 resources: https://github.com/kunalchand/my-resources
 zoom: https://buffalo.zoom.us/j/94157843149?pwd=M002RjFxZlpaS29RNklzYnhNSDdZQT09
+task: https://tasksboard.com/app

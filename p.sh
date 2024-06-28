@@ -36,6 +36,7 @@ import math
 import random
 from bisect import bisect, bisect_left, bisect_right, insort, insort_left, insort_right
 from collections import Counter, defaultdict, deque
+from copy import deepcopy
 from dataclasses import dataclass
 from functools import cache, cmp_to_key, lru_cache, reduce
 from heapq import heapify, heappop, heappush, heappushpop

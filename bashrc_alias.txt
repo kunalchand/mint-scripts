@@ -13,6 +13,7 @@ alias editlangnotes='~/Documents/mint-scripts/editlangnotes.sh'
 alias editresources='~/Documents/mint-scripts/editresources.sh'
 alias daily='~/Documents/mint-scripts/daily.sh'
 alias dm='~/Documents/mint-scripts/dm.sh'
+alias trulogik='~/Documents/mint-scripts/trulogik.sh'
 
 # Mint Scripts Alias
 alias mintscripts='~/Documents/mint-scripts/mintscripts.sh'

@@ -57,3 +57,6 @@ alias resources='~/Documents/mint-scripts/browser.sh resources'
 alias zoom='~/Documents/mint-scripts/browser.sh zoom'
 alias task='~/Documents/mint-scripts/browser.sh task'
 alias tasks='~/Documents/mint-scripts/browser.sh tasks'
+
+# Edge Browser Alias
+alias edge='~/Documents/mint-scripts/edge_browser.sh'

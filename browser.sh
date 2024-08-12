@@ -15,6 +15,12 @@ do
    COMMAND_TO_WEBSITE["$command"]="$url"
 done < "$SCRIPT_DIR/commands.txt"
 
+# Read the edge_commands.txt file and populate the associative array
+while IFS=':' read -r command url
+do
+   COMMAND_TO_WEBSITE["$command"]="$url"
+done < "$SCRIPT_DIR/edge_commands.txt"
+
 # Function to extract aliases from a given file
 extract_aliases() {
     # Check if aliases file exists and is readable

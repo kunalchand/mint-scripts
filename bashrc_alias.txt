@@ -60,3 +60,4 @@ alias tasks='~/Documents/mint-scripts/browser.sh tasks'
 
 # Edge Browser Alias
 alias edge='~/Documents/mint-scripts/edge_browser.sh'
+alias teams='~/Documents/mint-scripts/edge_browser.sh teams'

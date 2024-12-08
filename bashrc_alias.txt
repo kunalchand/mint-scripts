@@ -5,6 +5,9 @@ alias night='~/Documents/mint-scripts/nightmode.sh'
 # Pending Alias
 alias check='~/Documents/mint-scripts/check.sh'
 
+# Push Alias
+alias pushbills='~/Documents/mint-scripts/pushbills.sh'
+
 # Run Applications
 alias spring='~/Documents/mint-scripts/run-applications/spring.sh'
 alias qcm='~/Documents/mint-scripts/run-applications/qcm.sh'

@@ -24,17 +24,17 @@ fi
 # copy bundled jars
 scp /home/kunalchand/Desktop/Projects/trulogik-company/kafka-integration/target/*.jar postgresadmin@20.102.88.201:/home/postgresadmin/kafka/kafka-connect-jars/
 
-# Check for "keepopen" argument (exact match)
-keepopen_found=false
+# Check for "keepterminalopen" argument (exact match)
+keepterminalopen_found=false
 for arg in "$@"; do
-  if [[ "$arg" == "keepopen" ]]; then
-    keepopen_found=true
+  if [[ "$arg" == "keepterminalopen" ]]; then
+    keepterminalopen_found=true
     break
   fi
 done
 
-# Close terminal only if "keepopen" is NOT found
-if ! $keepopen_found; then
+# Close terminal only if "keepterminalopen" is NOT found
+if ! $keepterminalopen_found; then
     # get the PID of the terminal
     TERMINAL_PID=$(ps -o ppid= -p $$)
     # close terminal

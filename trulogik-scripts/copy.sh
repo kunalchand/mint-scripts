@@ -4,6 +4,9 @@ scp /home/kunalchand/Desktop/Projects/trulogik-company/kafka-integration/docker-
 # copy postgres-sink-connector.json
 scp /home/kunalchand/Desktop/Projects/trulogik-company/kafka-integration/postgres-sink-connector.json postgresadmin@20.102.88.201:/home/postgresadmin/kafka/
 
+# copy field-mapping.yml
+scp /home/kunalchand/Desktop/Projects/trulogik-company/kafka-integration/field-mapping.yml postgresadmin@20.102.88.201:/home/postgresadmin/kafka/
+
 # Check for "nobuild" argument (exact match)
 nobuild_found=false
 for arg in "$@"; do

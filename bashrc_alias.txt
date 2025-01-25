@@ -7,6 +7,7 @@ alias check='~/Documents/mint-scripts/check.sh'
 
 # Push Alias
 alias pushbills='~/Documents/mint-scripts/pushbills.sh'
+alias pushmintscripts='~/Documents/mint-scripts/pushmintscripts.sh'
 
 # Trulogik Scripts Alias
 alias trulogik='~/Documents/mint-scripts/trulogik-scripts/trulogik.sh'
@@ -26,7 +27,6 @@ alias dm='~/Documents/mint-scripts/vs-code-scripts/dm.sh'
 
 # Mint Scripts Alias
 alias mintscripts='~/Documents/mint-scripts/mintscripts.sh'
-alias pushmintscripts='~/Documents/mint-scripts/pushmintscripts.sh'
 
 # Link Alias
 alias url='~/Documents/mint-scripts/url.sh'

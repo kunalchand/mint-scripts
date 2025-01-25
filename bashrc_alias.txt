@@ -5,9 +5,9 @@ alias night='~/Documents/mint-scripts/nightmode.sh'
 # Pending Alias
 alias check='~/Documents/mint-scripts/check.sh'
 
-# Push Alias
-alias pushbills='~/Documents/mint-scripts/pushbills.sh'
-alias pushmintscripts='~/Documents/mint-scripts/pushmintscripts.sh'
+# Push Scripts Alias
+alias pushbills='~/Documents/mint-scripts/push-scripts/pushbills.sh'
+alias pushmintscripts='~/Documents/mint-scripts/push-scripts/pushmintscripts.sh'
 
 # Trulogik Scripts Alias
 alias trulogik='~/Documents/mint-scripts/trulogik-scripts/trulogik.sh'

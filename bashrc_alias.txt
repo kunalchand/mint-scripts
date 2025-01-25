@@ -17,13 +17,14 @@ alias 360='~/Documents/mint-scripts/trulogik-scripts/360.sh'
 alias copy='~/Documents/mint-scripts/trulogik-scripts/copy.sh'
 
 # VSCode Scripts Alias
-alias projects='~/Documents/mint-scripts/vs-code-scripts/projects.sh'
-alias p='~/Documents/mint-scripts/vs-code-scripts/p.sh'
-alias j='~/Documents/mint-scripts/vs-code-scripts/j.sh'
-alias editlangnotes='~/Documents/mint-scripts/vs-code-scripts/editlangnotes.sh'
-alias editresources='~/Documents/mint-scripts/vs-code-scripts/editresources.sh'
-alias daily='~/Documents/mint-scripts/vs-code-scripts/daily.sh'
-alias dm='~/Documents/mint-scripts/vs-code-scripts/dm.sh'
+alias projects='~/Documents/mint-scripts/vscode-scripts/projects.sh'
+alias p='~/Documents/mint-scripts/vscode-scripts/p.sh'
+alias j='~/Documents/mint-scripts/vscode-scripts/j.sh'
+alias editlangnotes='~/Documents/mint-scripts/vscode-scripts/editlangnotes.sh'
+alias editresources='~/Documents/mint-scripts/vscode-scripts/editresources.sh'
+alias daily='~/Documents/mint-scripts/vscode-scripts/daily.sh'
+alias dm='~/Documents/mint-scripts/vscode-scripts/dm.sh'
+alias vscode='~/Documents/mint-scripts/vscode-scripts/vscode.sh'
 
 # Mint Scripts Alias
 alias mintscripts='~/Documents/mint-scripts/mintscripts.sh'

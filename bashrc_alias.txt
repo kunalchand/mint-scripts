@@ -26,6 +26,7 @@ alias dm='~/Documents/mint-scripts/vs-code-scripts/dm.sh'
 
 # Mint Scripts Alias
 alias mintscripts='~/Documents/mint-scripts/mintscripts.sh'
+alias pushmintscripts='~/Documents/mint-scripts/pushmintscripts.sh'
 
 # Link Alias
 alias url='~/Documents/mint-scripts/url.sh'

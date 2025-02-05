@@ -13,6 +13,7 @@ alias pushmintscripts='~/Documents/mint-scripts/push-scripts/pushmintscripts.sh'
 alias trulogik='~/Documents/mint-scripts/trulogik-scripts/trulogik.sh'
 alias spring='~/Documents/mint-scripts/trulogik-scripts/spring.sh'
 alias qcm='~/Documents/mint-scripts/trulogik-scripts/qcm.sh'
+alias qcmCode='~/Documents/mint-scripts/trulogik-scripts/qcmCode.sh'
 alias 360='~/Documents/mint-scripts/trulogik-scripts/360.sh'
 alias copy='~/Documents/mint-scripts/trulogik-scripts/copy.sh'
 

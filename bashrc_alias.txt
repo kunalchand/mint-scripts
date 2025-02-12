@@ -74,3 +74,6 @@ alias tasks='~/Documents/mint-scripts/browser.sh tasks'
 alias edge='~/Documents/mint-scripts/edge_browser.sh'
 alias teams='~/Documents/mint-scripts/edge_browser.sh teams'
 alias khoj='~/Documents/mint-scripts/browser.sh khoj'
+
+# Git Alias
+alias glp='git log --pretty=format:"%C(yellow)%h%Creset - %C(green)%an%Creset, %ar : %s"'

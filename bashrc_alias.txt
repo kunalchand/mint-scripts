@@ -41,6 +41,9 @@ alias practice='~/Documents/mint-scripts/practice.sh'
 # Git Alias
 alias glp='git log --pretty=format:"%C(yellow)%h%Creset - %C(green)%an%Creset, %ar : %s"'
 
+# WiFi alias
+alias wifi='~/Documents/mint-scripts/restartWiFi.sh'
+
 # Edge Browser Alias
 alias edge='~/Documents/mint-scripts/edge_browser.sh'
 alias teams='~/Documents/mint-scripts/edge_browser.sh teams'

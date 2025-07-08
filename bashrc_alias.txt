@@ -20,6 +20,10 @@ alias qcm='~/Documents/mint-scripts/trulogik-scripts/qcm.sh'
 alias qcmCode='~/Documents/mint-scripts/trulogik-scripts/qcmCode.sh'
 alias 360='~/Documents/mint-scripts/trulogik-scripts/360.sh'
 alias copy='~/Documents/mint-scripts/trulogik-scripts/copy.sh'
+alias payer='~/Documents/mint-scripts/trulogik-scripts/payer.sh'
+alias payerCode='~/Documents/mint-scripts/trulogik-scripts/payerCode.sh'
+alias trucase='~/Documents/mint-scripts/trulogik-scripts/trucase.sh'
+alias trucaseCode='~/Documents/mint-scripts/trulogik-scripts/trucaseCode.sh'
 
 # VSCode Scripts Alias
 alias projects='~/Documents/mint-scripts/vscode-scripts/projects.sh'

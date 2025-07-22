@@ -25,6 +25,10 @@ alias payerCode='~/Documents/mint-scripts/trulogik-scripts/payerCode.sh'
 alias trucase='~/Documents/mint-scripts/trulogik-scripts/trucase.sh'
 alias trucaseCode='~/Documents/mint-scripts/trulogik-scripts/trucaseCode.sh'
 
+# Morph Mind Alias
+alias mmWriter='~/Documents/mint-scripts/morphmind-scripts/mmWriter.sh'
+alias mmWriterCode='~/Documents/mint-scripts/morphmind-scripts/mmWriterCode.sh'
+
 # VSCode Scripts Alias
 alias projects='~/Documents/mint-scripts/vscode-scripts/projects.sh'
 alias p='~/Documents/mint-scripts/vscode-scripts/p.sh'

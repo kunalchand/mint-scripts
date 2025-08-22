@@ -109,7 +109,7 @@ handle_latex_zip() {
         mkdir -p "$LATEX_DIR"
         log "Moving $RESUME_ZIP into $LATEX_DIR/"
         mv "$RESUME_ZIP" "$LATEX_DIR/"
-        log "Extracting $LATEX_ZIP_PATH into $EXTRACT_DIR..."
+        log "Extracting $LATEX_ZIP_PATH into $EXTRACT_DIR"
         unzip -o "$LATEX_ZIP_PATH" -d "$EXTRACT_DIR"
     fi
 

@@ -3,7 +3,7 @@ phind: https://www.phind.com/
 google: https://www.google.com/
 roadmap: https://neetcode.io/roadmap
 myleetcodenotes: https://docs.google.com/spreadsheets/d/14xdtVdBHRXI2thUCdcIiq0E-C1gLPzHMGUZl31hw6gc/edit#gid=1336779853
-myjavanotes: https://github.com/kunalchand/my-programming-languages-notes/blob/master/my-java-notes.md
+myjavanotes: https://github.com/kunalchand/my-resources/tree/master/programming-languages/my-java-notes.md
 whatsapp: https://web.whatsapp.com/
 youtube: https://www.youtube.com/channel/UCOnFr4jtlNNwHk5ERjsJ54Q/playlists?view=1&sort=lad
 gmail: https://mail.google.com/mail/u/0/#inbox
@@ -14,14 +14,14 @@ leetcode: https://leetcode.com/kunal-chand/
 music: https://music.youtube.com/
 ubmail: https://outlook.office.com/mail/
 perplexity: https://www.perplexity.ai/
-mypythonnotes: https://github.com/kunalchand/my-programming-languages-notes/blob/master/my-python-notes.md
+mypythonnotes: https://github.com/kunalchand/my-resources/blob/master/programming-languages/my-python-notes.md
 joviandsapython: https://www.youtube.com/playlist?list=PLyMom0n-MBrqFwguQhbCu0Anlxoel08dr
 onecompilerpython: https://onecompiler.com/python
 drive: https://drive.google.com/drive/home
 bard: https://bard.google.com/chat
 claude: https://claude.ai/chats
 portal: https://docs.google.com/spreadsheets/d/1-86f-O7Q7GVVrmPjophwmJiawYajlnCti2ex-5vOGws/edit#gid=625126536
-langnotes: https://github.com/kunalchand/my-programming-languages-notes
+langnotes: https://github.com/kunalchand/my-resources/tree/master/programming-languages
 you: https://you.com/
 dailyleetcodepractice: https://github.com/kunalchand/daily-leetcode-practice
 resources: https://github.com/kunalchand/my-resources
